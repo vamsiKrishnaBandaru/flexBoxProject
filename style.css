@@ -64,6 +64,7 @@ h1{
 }
 
 .flexBoxs-container {
+  margin: 0 9rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -73,7 +74,7 @@ h1{
 }
 
 .box{
-  width: 30rem;
+  width: 40rem;
   height: 30rem;
 }
 
