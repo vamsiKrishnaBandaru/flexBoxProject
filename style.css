@@ -53,11 +53,37 @@ header{
 }
 
 .main-para{
-  font-size: 1.8rem;
-  width: 60%;
+  font-size: 2.5rem;
+  width: 50%;
   text-align: center;
 }
 
+.main-buttons{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.seconadary-btn,.main-btn{
+  color: white;
+  border: none;
+  background: none;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+}
+
+.seconadary-btn{
+  background-color: gray;
+}
+
+.main-btn{
+  background-color: blue;
+}
+
+.sec-2{
+  padding: 2rem 0;
+  background-color: rgb(238, 238, 238);
+}
 
 h1{
   font-size: 4rem;
@@ -75,7 +101,10 @@ h1{
 
 .box{
   width: 40rem;
-  height: 30rem;
+  height: 35rem;
+  font-size: 2rem;
+  background: white;
+  border-radius: 7px;
 }
 
 .image{
@@ -84,10 +113,38 @@ h1{
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2rem;
   color: white;
+  border-radius: 7px 7px 0 0 ;
+
+}
+.para-sect{
+  padding: 1rem;
 }
 
 .para{
-  font-size: 1.5rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.boxBottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menuButton{
+  display: flex;
+  gap: 1rem;
+}
+
+.boxBottom > div{
+  display: flex;
+  font-size: 1rem;
+
+}
+
+
+.boxBottom button{
+  background: none;
+  border: none;
 }
