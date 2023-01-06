@@ -2,17 +2,22 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+p {
+  opacity: 0.7;
 }
 
-html{
+html {
   font-size: 62.52%;
 }
 
-header{
+header {
   background-color: rgb(54, 54, 54);
 }
 
-.container{
+.container {
   margin: 0 9rem;
   padding: 0.5rem 2rem;
   display: flex;
@@ -20,7 +25,7 @@ header{
   justify-content: space-between;
 }
 
-.title-sec{
+.title-sec {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -30,12 +35,12 @@ header{
   color: white;
 }
 
-.icons{
+.icons {
   width: 3.2rem;
   height: 3.2rem;
 }
 
-.btn{
+.btn {
   border: none;
   background: none;
   color: white;
@@ -52,19 +57,20 @@ header{
   gap: 1rem;
 }
 
-.main-para{
+.main-para {
   font-size: 2.5rem;
   width: 50%;
   text-align: center;
 }
 
-.main-buttons{
+.main-buttons {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
 
-.seconadary-btn,.main-btn{
+.seconadary-btn,
+.main-btn {
   color: white;
   border: none;
   background: none;
@@ -72,20 +78,20 @@ header{
   border-radius: 8px;
 }
 
-.seconadary-btn{
+.seconadary-btn {
   background-color: gray;
 }
 
-.main-btn{
+.main-btn {
   background-color: blue;
 }
 
-.sec-2{
+.sec-2 {
   padding: 2rem 0;
-  background-color: rgb(238, 238, 238);
+  background-color: rgb(243, 242, 242);
 }
 
-h1{
+h1 {
   font-size: 4rem;
 }
 
@@ -96,10 +102,9 @@ h1{
   justify-content: center;
   flex-wrap: wrap;
   gap: 2rem;
-  
 }
 
-.box{
+.box {
   width: 40rem;
   height: 35rem;
   font-size: 2rem;
@@ -107,44 +112,47 @@ h1{
   border-radius: 7px;
 }
 
-.image{
+.image {
   height: 50%;
   background-color: grey;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
-  border-radius: 7px 7px 0 0 ;
-
+  border-radius: 7px 7px 0 0;
 }
-.para-sect{
+.para-sect {
   padding: 1rem;
 }
 
-.para{
+.para {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
 
-.boxBottom{
+.boxBottom {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.menuButton{
+.boxBottom p {
+  font-size: 15px;
+}
+.para-sect p {
+  font-size: 18px;
+}
+.menuButton {
   display: flex;
   gap: 1rem;
 }
 
-.boxBottom > div{
+.boxBottom > div {
   display: flex;
   font-size: 1rem;
-
 }
 
-
-.boxBottom button{
+.boxBottom button {
   background: none;
   border: none;
 }
