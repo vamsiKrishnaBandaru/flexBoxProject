@@ -135,13 +135,15 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-left: 1rem;
 }
 
 .boxBottom p {
-  font-size: 15px;
+  font-size: 10px;
 }
 .para-sect p {
-  font-size: 18px;
+  font-size: 16px;
+  margin: 0.7rem;
 }
 .menuButton {
   display: flex;
