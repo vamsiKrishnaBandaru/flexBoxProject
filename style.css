@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.52%;
+}
+
+header{
+  background-color: rgb(54, 54, 54);
+}
+
+.container{
+  margin: 0 9rem;
+  padding: 0.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title-sec{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 2rem;
+  font-weight: 500;
+  color: white;
+}
+
+.icons{
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.btn{
+  border: none;
+  background: none;
+  color: white;
+}
+
+/* section 1 */
+
+.mainPage {
+  margin: 5rem 9rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.main-para{
+  font-size: 1.8rem;
+  width: 60%;
+  text-align: center;
+}
+
+
+h1{
+  font-size: 4rem;
+}
+
+.flexBoxs-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  
+}
+
+.box{
+  width: 30rem;
+  height: 30rem;
+}
+
+.image{
+  height: 50%;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: white;
+}
+
+.para{
+  font-size: 1.5rem;
+}
